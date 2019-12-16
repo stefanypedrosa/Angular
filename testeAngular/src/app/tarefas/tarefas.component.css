@@ -1,0 +1,22 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+h4{
+    margin-left: 60%;
+}
+
+#tarefa{
+    background-color: rgb(166, 194, 221);
+}
+input{
+    zoom: 1.7;
+    margin-top: 5.1%;
+    margin-left: 90%;
+}
+
+#margem{
+    margin-left: 15%;
+    margin-right: 15%;
+}

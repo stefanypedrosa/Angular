@@ -1,0 +1,19 @@
+<section id="tarefa">
+    <div *ngFor='let _tarefa of minhaTarefa' id="margem">
+        <div class="row">
+            <div class="col-md-2">
+                <input type="checkbox">
+            </div>
+            <div class="col-md-3 mb-1 mt-1 mr-5">
+                <h4 class="text-left">{{ _tarefa.nome }}</h4> 
+            </div>
+            <div class="col-md-1 mt-1 mr-2">
+                <img src="../../assets/image/setinha.png" alt="" width="50" height="30">
+            </div>
+            <div class="col-md-4 mb-1 mt-2 ml-5">
+                <p class="text-left">Responsável: {{ _tarefa.responsavel }}</p>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+</section>

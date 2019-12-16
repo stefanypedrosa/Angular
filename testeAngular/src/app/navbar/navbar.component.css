@@ -1,0 +1,24 @@
+button{
+    color: #172255;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.btn{
+    border-color: #172255;
+    font-weight:bolder;
+    text-decoration:none;
+    background-color:  rgb(112, 146, 179);
+}
+
+.btn:hover{
+    background-color:#172255;
+    border-color:#172255;
+    color:  white;
+}
+img{
+    padding: 0%;
+    margin: 0%;
+}
+#itens{
+    margin-left: 47%;
+}
